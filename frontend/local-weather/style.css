@@ -2,19 +2,18 @@
     height: 70%;
     padding:10%;
 }
-
 .info_container {
-    height:30%;
+    height:64%;
     width:100%;
 }
 .temperature_container {
-    height: 64%;
+    height: 30%;
     width: 50%;
     float: right;
     position: relative;
 }
 .icon_container {
-    height: 64%;
+    height: 30%;
     width: 50%;
     float: left;
     position: relative;
@@ -24,14 +23,11 @@
     bottom: 10%;
 }
 
+
+/************ICONS**********/
 #temp {
     font-size: 12em;
     margin:0;
-}
-
-/* to size the google font icons */
-.mdi, .wi {
-    font-size:14em !important;
 }
 h1 {
     font-size: 4em;
@@ -40,3 +36,32 @@ h1 {
 h2 {
     font-size: 3em;
 }
+/* to size the weather icons */
+.mdi, .wi {
+    font-size:14em !important;
+}
+
+/************BACKGROUNDS**********/
+.clear {
+    background-color: #FF9800 !important;
+}
+/*
+.thunderstorm {
+
+}
+.drizzle {
+
+}
+.rain {
+
+}
+.snow {
+
+}
+.atmosphere {
+
+}
+.clouds {
+
+}
+*/
