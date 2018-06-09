@@ -1,3 +1,9 @@
 #temp {
     font-size: 8em;
+    margin-bottom:0;
+}
+
+/* to size the google font icons */
+.mdi, .wi {
+    font-size:12em !important;
 }

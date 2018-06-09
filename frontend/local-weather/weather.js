@@ -24,8 +24,7 @@ function getWeather(lat, lon) {
     $.ajax({url: requestURL, success: function(result) {
         var tempInF = Math.round((result.main.temp) * 1.8 + 32);
         $("#temp").text(tempInF + String.fromCharCode(176) + "F");
-        //$("#desc").text(result.weather.description);
-       // $("#main_desc").text(result.weather.O.main);
+        $("#desc").text(result.weather[0].description); //FIXME: make this into uppercase?
         $("#city").text(result.name);
     }})
 }
