@@ -24,7 +24,7 @@
 }
 
 
-/************ICONS**********/
+/************FONTS**********/
 #temp {
     font-size: 12em;
     margin:0;
@@ -45,23 +45,21 @@ h2 {
 .clear {
     background-color: #FF9800 !important;
 }
-/*
 .thunderstorm {
-
+    background-color: #9E9E9E !important;
 }
 .drizzle {
-
+    background-color: #64B5F6 !important;
 }
 .rain {
-
+    background-color: #2196F3 !important;
 }
 .snow {
-
+    background-color: #F5F5F5 !important;
 }
 .atmosphere {
-
+    background-color: #CFD8DC !important;
 }
 .clouds {
-
+    background-color: #CFD8DC !important;
 }
-*/
