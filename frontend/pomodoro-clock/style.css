@@ -1,0 +1,43 @@
+body, html {
+    background-color: #1e1f21;
+    color: #ecf0f1;
+    font-family: 'Sunflower', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+}
+  
+#timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 12rem;
+}
+
+a.btn,.btn {
+
+      display: inline-block;
+      outline: none;
+      *zoom: 1;
+      text-align: center;
+      text-decoration: none;
+      font-family: inherit;
+      font-weight: 300;
+      letter-spacing: 1px;
+      vertical-align: middle;
+      border: 1px solid;
+      transition: all 0.2s ease;
+      box-sizing: border-box;
+      text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+  }
+
+  .btn-large {
+	font-size: 1.0625em;
+	padding: 0.5625em 1.5em;
+}
+
+.btn-blue {
+	color: #4682B4;
+	border-color: #4682B4;
+}
