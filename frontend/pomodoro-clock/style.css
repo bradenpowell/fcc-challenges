@@ -13,6 +13,7 @@ body, html {
   justify-content: center;
   text-align: center;
   font-size: 12rem;
+  margin-bottom:5%;
 }
 
 a.btn,.btn {
@@ -23,21 +24,34 @@ a.btn,.btn {
       text-align: center;
       text-decoration: none;
       font-family: inherit;
-      font-weight: 300;
+      font-weight: 400;
       letter-spacing: 1px;
       vertical-align: middle;
       border: 1px solid;
       transition: all 0.2s ease;
       box-sizing: border-box;
       text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+      font-size: 1.5em;
+
   }
 
   .btn-large {
 	font-size: 1.0625em;
-	padding: 0.5625em 1.5em;
+  padding: 0.8625em 1.5em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 .btn-blue {
 	color: #4682B4;
 	border-color: #4682B4;
+}
+
+.circle {
+  
+  border: 1px solid #FFF;
+  border-radius: 18px;
+  box-shadow: 0 0 2px #888;
+  height: 30px;
+  width: 30px;
 }
