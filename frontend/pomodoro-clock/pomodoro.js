@@ -11,10 +11,19 @@ $(document).ready(function () {
 
 
     startBtn.onclick = function () {
+        
         if(strtTimer == false) {
+           
             strtTimer = true;
             minutes -= 1;
             setInterval(function () {
+                if(minutes == 0 && seconds == 1) {
+                    minutes = 0; 
+                    seconds = 0;
+                    timerDisplay.innerHTML = minutes + " : " + seconds;
+                    alert("Time for a Break!");
+                    minutes = 5;
+                }
                 seconds -= 1;
                 if (seconds <= 0) {
                     minutes -= 1;
@@ -26,8 +35,6 @@ $(document).ready(function () {
         }
     }
 
-    if(minutes < 0) {
-        alert("Time is up!");
-    }
+    
 
 });
