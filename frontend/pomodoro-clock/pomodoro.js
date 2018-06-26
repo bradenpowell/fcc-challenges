@@ -1,11 +1,6 @@
 $(document).ready(function () {
     var timerDisplay = document.getElementById("timer");
     var startBtn = document.getElementById("startBtn");
-    var workPlus = document.getElementById("workPlus");
-    var workMinus = document.getElementById("workMinus");
-    var breakPlus = document.getElementById("breakPlus");
-    var breakMinus = document.getElementById("breakMinus");
-    var set_workTime = document.getElementById("work");
 
 
     var seconds = 59;
@@ -44,6 +39,7 @@ $(document).ready(function () {
         }
     }
 
+        ///Plus and Minus Buttons
     workPlus.onclick = function () {
         minutes += 1; 
         timerDisplay.innerHTML = minutes + " :00"
@@ -53,16 +49,12 @@ $(document).ready(function () {
     workMinus.onclick = function () {
         minutes -= 1; 
         timerDisplay.innerHTML = minutes + " :00"
-        set_workTime.innerHTML = minutes + " :00"
-    }
-    breakPlus.onclick = function () {
-        minutes += 1; 
-        timerDisplay.innerHTML = minutes + " :00"
+        work.innerHTML = minutes + " :00"
     }
 
     breakPlus.onclick = function () {
         break_minutes += 1; 
-        break_time.innerHTML = break_minutes + " :00"
+        break_time.innerHTML = break_minutes + " :00";
     }
 
     breakMinus.onclick = function () {
