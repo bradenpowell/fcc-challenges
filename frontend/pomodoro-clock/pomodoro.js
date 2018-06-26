@@ -45,7 +45,7 @@ $(document).ready(function () {
     workPlus.onclick = function () {
         minutes += 1; 
         timerDisplay.innerHTML = minutes + " :00"
-        set_workTime.innerHTML = minutes + " :00"
+        work.innerHTML = minutes + " :00"
     }
 
     workMinus.onclick = function () {
