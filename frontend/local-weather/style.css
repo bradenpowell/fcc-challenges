@@ -1,9 +1,65 @@
-#temp {
-    font-size: 8em;
-    margin-bottom:0;
+.container {
+    height: 70%;
+    padding:10%;
+}
+.info_container {
+    height:64%;
+    width:100%;
+}
+.temperature_container {
+    height: 30%;
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.icon_container {
+    height: 30%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.bottom {
+    position: absolute;
+    bottom: 10%;
 }
 
-/* to size the google font icons */
+
+/************FONTS**********/
+#temp {
+    font-size: 12em;
+    margin:0;
+}
+h1 {
+    font-size: 4em;
+    line-height: 0;
+}
+h2 {
+    font-size: 3em;
+}
+/* to size the weather icons */
 .mdi, .wi {
-    font-size:12em !important;
+    font-size:14em !important;
+}
+
+/************BACKGROUNDS**********/
+.clear {
+    background-color: #FF9800 !important;
+}
+.thunderstorm {
+    background-color: #9E9E9E !important;
+}
+.drizzle {
+    background-color: #64B5F6 !important;
+}
+.rain {
+    background-color: #2196F3 !important;
+}
+.snow {
+    background-color: #F5F5F5 !important;
+}
+.atmosphere {
+    background-color: #CFD8DC !important;
+}
+.clouds {
+    background-color: #CFD8DC !important;
 }
