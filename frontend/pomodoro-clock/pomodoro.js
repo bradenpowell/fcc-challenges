@@ -1,7 +1,8 @@
 $(document).ready(function () {
     var timerDisplay = document.getElementById("timer");
     var startBtn = document.getElementById("startBtn");
-
+    var timerText = document.getElementById("timerText");
+    var controls = document.getElementById("controls");
 
     var seconds = 59;
     var minutes = 25;
@@ -15,7 +16,8 @@ $(document).ready(function () {
     startBtn.onclick = function () {
         
         if(strtTimer == false) {
-           
+            timerText.style.visibility = "visible";
+            controls.style.visibility = "hidden"; 
             strtTimer = true;
             minutes -= 1;
             setInterval(function () {
