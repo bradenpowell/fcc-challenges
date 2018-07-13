@@ -1,7 +1,8 @@
 <html>
     <head>
-        <title>Braden's Pomodoro Clock</title>
+        <title>Braden Pomodoro</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js"></script>
        
         <link rel="stylesheet" href="style.css">
 
@@ -9,9 +10,31 @@
 
     <body>
         <center>
-            <h1>Pomodoro Clock In Progress</h1>
-            <h2 id="timer"></h2>
-            <button id="startBtn">Start</button>
+            <h1>Braden's Pomodoro Clock</h1>
+            <center>
+                <div id="controls">
+                    <div  style="width:50%; float:right;">
+                        <a id="workPlus" href="#">+</a>
+                        <h3 id="work">25:00</h3>
+                        <p>Work</p>
+                        <a id="workMinus" href="#">-</a>
+                    </div>
+                    <div  style="width:50%; float:left;">
+                        <a id="breakPlus">+</a>
+                        <h3 id="break_time">5:00</h3>
+                        <p>Break</p>
+                        <a id="breakMinus">-</a>
+                    </div>
+                </div>
+
+                <div id="timerText" style="width:100%; clear:both; position:relative;">
+                    <h2 id="timer">H</h2>
+
+                </div>
+
+            </center>
+            <a id="startBtn" class="btn btn-large btn-blue" href="#">Start</a>
+        
         </center>
     </body>
     <script src ="pomodoro.js"></script>
