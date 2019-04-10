@@ -17,8 +17,8 @@ body {
 }
 
 .planet {
-    width: 25px; 
-    height:25px; 
+    width: 20px; 
+    height:20px; 
     border-radius:50%;
     background-color: red; 
     position:absolute; 
@@ -52,8 +52,8 @@ body {
 }
 .venus {
     background-color: brown;
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     top:40px;
 }
 
@@ -65,8 +65,8 @@ body {
 .earth {
     background-color:lightseagreen;
     border: 2px solid green;
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
     top:90px;
 }
 
@@ -78,9 +78,9 @@ body {
 .mars {
     background-color:red;
     border: 2px solid darkred;
-    width:50px;
-    height:50px;
-    top:120px;
+    width:35px;
+    height:35px;
+    top:145px;
 }
 
 .jupiter-orbit {
@@ -91,9 +91,9 @@ body {
 .jupiter {
     background-color:lightcoral;
     border: 2px solid yellow;
-    width:90px;
-    height:90px;
-    top:130px;
+    width:60px;
+    height:60px;
+    top:170px;
 }
 
 .saturn-orbit {
@@ -104,8 +104,8 @@ body {
 .saturn {
     background-color:orange;
     border: 2px solid yellow;
-    width:75px;
-    height:75px;
+    width:65px;
+    height:65px;
     top:190px;
 }
 
@@ -117,8 +117,8 @@ body {
 .uranus {
     background-color:lightgreen;
     border: 2px solid grey;
-    width:65px;
-    height:65px;
+    width:60px;
+    height:60px;
     top:250px;
 }
 
@@ -130,8 +130,8 @@ body {
 .neptune {
     background-color:lightskyblue;
     border: 2px solid darkcyan;
-    width:55px;
-    height:55px;
+    width:50px;
+    height:50px;
     top:300px;
 }
 
